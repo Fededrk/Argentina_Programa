@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-argpro {
+  margin-right: 1rem;
+  background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  border-radius: 15px;
+}
+
+.ico {
+  width: 35px;
+  margin: 4px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialmedia-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.yoprogramo-container {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 6rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+button:hover{
+  background: transparent;
+  background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  
+}
