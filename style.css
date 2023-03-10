@@ -6,12 +6,13 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  max-width: 100%;
 }
 
 body {
-  box-sizing: border-box;
-  display: grid;
   justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .logo-argpro {
@@ -22,20 +23,18 @@ body {
   background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
   background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
   border-radius: 15px;
+  min-width: 50%;
 }
 
 .ico {
   width: 35px;
-  margin: 4px;
+  margin: 2px;
+  max-width: 100%;
 }
-.main-container {
-  padding-left: 20%;
-  padding-right: 20%;
-}
+
 .nav-container {
   display: flex;
   justify-content: center;
-  width: 100%;
   margin: 0 auto;
 }
 .socialmedia-container {
@@ -51,8 +50,7 @@ body {
 }
 
 button {
-  width: 6rem;
-  height: 3rem;
+  max-width: 100%;
   border-radius: 0.5rem;
 }
 button:hover {
@@ -62,24 +60,34 @@ button:hover {
 }
 .banner img {
   width: 100%;
-  margin: 0 auto;
-  padding-top: 2px;
+  padding-top: 10px;
+  position: relative;
 }
 .perfil img {
   border-radius: 100px;
-  font-size: 2rem;
-  display: flex;
+  max-width: 100%;
 }
 .perfil {
   display: flex;
   align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
+h1{
+  text-size-adjust: calc(50%);
+}
+
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: center;
+}
+h3 {
+  font-size: 2rem;
   text-align: center;
 }
 p {
-  font-size: 2rem;
+  background-color: #80bdf3;
+  font-size: 1rem;
   text-align: center;
   margin: 0 auto;
 }
