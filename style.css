@@ -41,16 +41,18 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
+  min-width: min-content;
+  flex-wrap: wrap;
 }
 
 .yoprogramo-container {
   display: flex;
   align-items: center;
-  margin-right: auto;
+  flex-wrap: wrap;
 }
 
 button {
-  max-width: 100%;
+  max-width: 30%;
   border-radius: 0.5rem;
 }
 button:hover {
@@ -65,7 +67,12 @@ button:hover {
 }
 .perfil img {
   border-radius: 100px;
-  max-width: 100%;
+  max-width: 30%;
+}
+@media (max-width: 768px) {
+  .perfil{
+    justify-content: center;
+  }   
 }
 .perfil {
   display: flex;
