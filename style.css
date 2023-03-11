@@ -113,8 +113,6 @@ h2 {
   padding-right: 20%;
 }
 p {
-  display: flex;
-    justify-content: center;
   background-color: #80bdf3;
   font-size: 1rem;
   text-align: center;
