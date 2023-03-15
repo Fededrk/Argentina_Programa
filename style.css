@@ -138,10 +138,11 @@ p {
   border-radius: 8px;
   color: white;
 }
-.contenedor-circle {
+.circle-container {
   position: relative;
   min-width: 150px;
   min-height: 150px;
+  margin: 5px;
 }
 
 .circle1 {
@@ -223,7 +224,6 @@ h4{
   }
 }
 
-
 .percent {
   position: absolute;
   top: 50%;
@@ -234,6 +234,7 @@ h4{
   color: #0077be;
 }
 .circle-maincontainer{
+  padding: 10px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
