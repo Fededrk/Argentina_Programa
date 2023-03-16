@@ -65,7 +65,9 @@ body {
     justify-content: space-evenly;
   }
 }
-
+a{
+  text-decoration: none;
+}
 .button {
   background-color: rgb(57, 158, 231);
   color: white;
