@@ -90,7 +90,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.banner__main{
+.banner__main {
   max-width: auto;
   border-radius: 2%;
 }
@@ -210,7 +210,7 @@ p {
   border-bottom-color: #0077be;
   animation: progress 1s linear forwards;
 }
-h4{
+h4 {
   text-align: center;
   margin-top: 30%;
 }
@@ -233,9 +233,30 @@ h4{
   font-weight: bold;
   color: #0077be;
 }
-.circle-maincontainer{
+.circle-maincontainer {
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+h5 {
+  font-size: 2rem;
+}
+.link__proyects {
+  width: 12%;
+  max-height: 10%;
+  padding: 16px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  text-decoration: none;
+  border-radius: 2%;
+  background-color: #eb94d0;
 }
