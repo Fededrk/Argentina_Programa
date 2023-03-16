@@ -254,7 +254,7 @@ h5 {
   height: 10%;
   padding: 16px;
   text-align: center;
-  margin:auto;
+  margin: auto;
   margin-bottom: 16px;
   text-decoration: none;
   border-radius: 2%;
@@ -264,17 +264,17 @@ h5 {
   background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
   background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
   font-family: sans-serif;
-  font-style:italic;
+  font-style: italic;
   font-weight: bold;
   color: white;
 }
 @media (max-width: 768px) {
-   .link__proyects{
+  .link__proyects {
     min-width: 50%;
     min-height: 50%;
-   }
+  }
 }
-footer{
+footer {
   border-top: 1px solid black;
   padding: 2%;
   text-align: center;
