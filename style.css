@@ -310,15 +310,16 @@ section{
   height: 350px;
   background: transparent;
   border-radius: 20px;
-  border: 2px solid rgb(66, 80, 95);
+  border: 2px solid rgb(230, 235, 240);
   backdrop-filter: blur(15px);
-  margin: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 h2{
   text-align: center;
   font-size: 2rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: #b4e6f6;
+  color: #d2e9f0;
 }
 label{
   color: #e5eaef;
@@ -328,4 +329,31 @@ p{
 }
 a{
   color: #e5eaef;
+}
+
+button{
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+.inputbox input {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding:0px 0px 5px;
+  color: #fff;
+}
+.forget{
+  padding: 15px 0px;
+  text-align: center;
 }
