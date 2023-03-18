@@ -118,7 +118,7 @@ a{
   gap: 16px;
 }
 h3,
-h2 {
+.footer-container {
   font-size: 2rem;
   text-align: center;
 }
@@ -131,7 +131,7 @@ h2 {
   padding-left: 10%;
   padding-right: 10%;
 }
-p {
+.container-p {
   background-color: #80bdf3;
   font-size: 1.2rem;
   text-align: center;
@@ -230,7 +230,7 @@ h4 {
   margin-top: 30%;
 }
 
-@keyframes progress {
+@keyframes rogress {
   from {
     transform: rotate(0deg);
   }
@@ -290,4 +290,42 @@ footer {
   border-top: 1px solid black;
   padding: 2%;
   text-align: center;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  min-width: 100%;
+  background: url(img/banner.jpg)no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.form-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid rgb(66, 80, 95);
+  backdrop-filter: blur(15px);
+  margin: 100px;
+}
+h2{
+  text-align: center;
+  font-size: 2rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #b4e6f6;
+}
+label{
+  color: #e5eaef;
+}
+p{
+  color: #e5eaef;
+}
+a{
+  color: #e5eaef;
 }
