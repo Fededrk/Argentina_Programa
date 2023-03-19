@@ -23,7 +23,9 @@ body {
   border-radius: 15px;
   min-width: 50%;
 }
-
+h1{
+  color: black;
+}
 .ico {
   width: 35px;
   margin: 2px;
@@ -119,6 +121,7 @@ a{
 }
 h3,
 .footer-container {
+  color: black;
   font-size: 2rem;
   text-align: center;
 }
