@@ -307,8 +307,8 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 700px;
-  height: 800px;
+  width: 600px;
+  height: 750px;
   background: transparent;
   border-radius: 20px;
   border: 2px solid rgb(230, 235, 240);
@@ -340,25 +340,35 @@ button{
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .inputbox input {
   position: absolute;
-  width: 100%;
+  max-width: 100%;
   background: transparent;
   border: none;
   outline: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding:0px 0px 5px;
   color: #fff;
 }
 .forget{
   padding: 15px 0px;
 }
-@media (max-width: 1444x900) {
-   .form-box{
-    width: 150px;
-    height: 200px;
-   }
+form{
+  width: 400px;
+  height: 450px;
+  font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .form-box, .form-value{
+    width: 360px;
+    height: 500px;
+  }   
+  button{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
