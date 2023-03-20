@@ -329,9 +329,9 @@ a {
   align-items: center;
 }
 .form-value{
+  font-size: 1.5rem;
   width: 100%;
   padding: 40px;
-  
 }
 .form-value h2{
   font-size: 3rem;
@@ -350,7 +350,6 @@ a {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  font-size: 1rem;
   font-weight: 500;
   pointer-events: none;
   transition: .5s;
@@ -373,7 +372,6 @@ a {
   position: absolute;
   right: 8px;
   bottom: 0;
-  font-size: 1.2rem;
   color: white;
 }
 .forget{
