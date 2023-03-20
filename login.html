@@ -10,29 +10,39 @@
 
 <body>
     <section>
-        <div class="form-box">
+        <div class="form-box Login">
             <div class="form-value">
-                <form action="">
-                    <h2>Login</h2>
+                <h2>Login</h2>
+                <form action="#">
                     <div class="inputbox">
+                        <span class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span>
                         <input type="email" required>
-                        <label for="">Email</label>
+                        <label for="">E-mail</label>
                     </div>
                     <div class="inputbox">
+                        <span class="icon">
+                            <ion-icon name="eye-off-outline"></ion-icon>
+                        </span>
                         <input type="password" required>
                         <label for="">Contraseña</label>
                     </div>
                     <div class="forget">
-                        <label for=""><input type="checkbox">Recuerdame. <a href="#">Olvide Contraseña</a></label>
+                        <label><input type="checkbox">Recuerdame</label>
+                        <a href="#">Olvido Contraseña?</a>
                     </div>
-                    <button>Log in</button>
+                    <button type="submit" class="btn">Log in</button>
                     <div class="register">
-                        <p>No tiene cuenta? <a href="#">Registrarse</a></p>
+                        <p>No tiene cuenta?</p>
+                        <a href="#">Registrarse</a>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
