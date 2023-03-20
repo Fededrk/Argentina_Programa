@@ -290,18 +290,7 @@ footer p {
   padding: 2%;
   text-align: center;
 }
-@media (max-width: 1440px) {
-  section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 100vh;
-    min-width: 100vw;
-    background: url(img/banner.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-}
+
 section {
   display: flex;
   justify-content: center;
@@ -329,8 +318,8 @@ a {
 }
 .form-box {
   position: relative;
-  width: 600px;
-  height: 700px;
+  width: 100vw;
+  height: 100vh;
   background: transparent;
   border: 2px solid rgb(255, 251, 251);
   border-radius: 20px;
