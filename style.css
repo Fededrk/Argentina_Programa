@@ -316,16 +316,30 @@ p {
 a {
   color: #e5eaef;
 }
+
 .form-box {
   position: relative;
-  width: 100%;
-  height: 100vh;
+  width: 600px;
+  height: 700px;
   background: transparent;
   border: 2px solid rgb(255, 251, 251);
   border-radius: 20px;
   backdrop-filter: blur(20px);
   display: flex;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .form-box {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+  }
 }
 .form-value {
   font-size: 1.5rem;
@@ -381,7 +395,8 @@ a {
   font-weight: 500;
   margin: 50px 0 30px;
 }
-.forget label, a{
+.forget label,
+a {
   margin-bottom: 16px;
 }
 .btn {
