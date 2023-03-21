@@ -318,8 +318,8 @@ a {
 }
 .form-box {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 90%;
+  height: 80vh;
   background: transparent;
   border: 2px solid rgb(255, 251, 251);
   border-radius: 20px;
