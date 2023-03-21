@@ -328,7 +328,7 @@ a {
   display: flex;
   align-items: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1080px) {
   .form-box {
     position: relative;
     width: 100%;
