@@ -154,13 +154,6 @@ h4 {
     transform: rotate(360deg);
   }
 }
-@media (max-width: 768px) {
-  .container
-   {
-    min-width: 100px;
-    min-height: 100px;
-  }
-}
 .container{
   display: flex;
   flex-direction: flex;
@@ -171,6 +164,7 @@ h4 {
   padding: 50px 0;
   border-radius: 8px;
   row-gap: 30px;
+  gap: 20px;
 
 }
 .circular-progress{
